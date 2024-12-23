@@ -57,10 +57,10 @@ Key features:
    ```bash
    conda install numpy scipy matplotlib
    ```
-Or if using Pip:
-  ```bash
-  pip install numpy scipy matplotlib
-  ```
+  Or if using Pip:
+   ```bash
+   pip install numpy scipy matplotlib
+   ```
 4. **Install a C++ compiler (for C++ implementation)**:
   - **Windows**: Install MinGW or Visual Studio Build Tools.
   - **Linux**: GCC or Clang.
