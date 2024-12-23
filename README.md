@@ -54,10 +54,11 @@ Key features:
 1. **Install Anaconda**: Download and install [Anaconda](https://www.anaconda.com/products/distribution) for the Python environment management and package distribution.
 2. **Install MATLAB**: Download and install [MATLAB](https://www.mathworks.com/products/matlab.html) to compare and implement MATLAB-specific functionalities.
 3. **Install necessary Python libraries**:
+ - For Conda users:
    ```bash
    conda install numpy scipy matplotlib
    ```
-  Or if using Pip:
+ - Or if using Pip:
    ```bash
    pip install numpy scipy matplotlib
    ```
