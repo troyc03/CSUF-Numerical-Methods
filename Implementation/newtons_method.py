@@ -22,13 +22,3 @@ def newtons_method(x_vals, y_vals):
             return result
         
         return polynomial
-
-# Example data points
-x_values = np.array([1, 2, 3, 4])
-y_values = np.array([1, 4, 9, 16])
-
-# Choose an interpolation method
-interpolator = newtons_method(x_values, y_values)
-
-# Use the returned function to get interpolated values
-print("The interpolated value is: ", interpolator(2.5))  # Evaluate at x = 2.5
