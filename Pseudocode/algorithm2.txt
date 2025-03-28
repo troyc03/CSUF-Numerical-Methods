@@ -1,0 +1,11 @@
+Function LagrangeInterpolation(x_values, y_values):
+    n = length of x_values
+    Polynomial = 0
+
+    For i = 0 to n-1:
+        L_i = 1
+        For j = 0 to n-1 (excluding i):
+            L_i = L_i * (x - x_values[j]) / (x_values[i] - x_values[j])
+        Polynomial += y_values[i] * L_i
+
+    Return Polynomial
