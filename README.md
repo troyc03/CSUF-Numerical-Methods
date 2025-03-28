@@ -70,3 +70,6 @@ To run the code, you may need to install the required Python dependencies.
 ```
 pip install numpy
 ```
+
+### License
+This project is licensed under the MIT License - see the LICENSE file for details.
